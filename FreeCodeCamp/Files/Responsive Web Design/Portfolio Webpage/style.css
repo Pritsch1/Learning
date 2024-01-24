@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    margin: 0;
+}
+/*NavBar START--------------------------------*/
+#navbar {
+    font-family: 'Bebas Neue', cursive;
+    overflow: hidden;
+    background-color: #189ad3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+    #navbar a {
+        float: right;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 22px 32px;
+        text-decoration: none;
+        font-size: 21px;
+        cursor: pointer;
+    }
+
+        #navbar a:hover {
+            background: #71c7ec;
+            color: black;
+        }
+
+@media (max-width:344px) {
+    #navbar a {
+        font-size: 5vw;
+    }
+    /*#navbar {
+        position: relative;
+    }*/
+}
+
+@media (max-width:308px) {
+    #navbar a {
+        padding: 11px 16px;
+    }
+}
+
+/*NavBar END--------------------------------*/
+
+/*Welcome START--------------------------------*/
+#welcome-section {
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.welcome {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5em;
+    margin: 0 0 10px 0;
+    cursor: help;
+}
+
+.welcomeP {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin: 0;
+    color: #189ad3;
+}
+
+@media (max-width:544px) {
+    .welcome {
+        font-size: 9vw;
+    }
+}
+
+/*Welcome END--------------------------------*/
+
+/*Project Section START--------------------------------*/
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+    .project-tile:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1);
+    }
+
+    #projects {
+        text-align: center;
+        background-color: #000;
+        background-image: linear-gradient(62deg, #A2D6ED 0%, #189ad3 100%);
+    }
+
+.project-tile {
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.description {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #189ad3;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    margin-top: -4px;
+    padding: 8px 0;
+    background-color: #669AE0;
+}
+
+.project-title {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    margin: 0 auto 4rem auto;
+    padding-top: 2rem;
+    color: white;
+    border-bottom: solid;
+    border-radius: 300px;
+}
+
+@media (max-width:340px) {
+    .projectsGrid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
+
+@media (max-width:849px) {
+    .project-tile {
+        max-width: 100%;
+    }
+
+    .project-title {
+        font-size: 2.1em;
+    }
+}
+
+@media (min-width:850px) {
+    .project-tile {
+        max-width: 384px;
+    }
+}
+
+@media (max-width:308px) {
+    .project-title {
+        font-size: 9vw;
+    }
+}
+
+@media (max-width:500px) {
+    .description {
+        font-size: 5vw;
+        /*width: 50%;*/
+    }
+}
+
+/*Project Section END--------------------------------*/
+
+/*Others--------------------------------*/
+.icon{
+    font-size: 1.6rem !important;
+}
+
+#footer {
+    background-color: #000;
+    background-image: linear-gradient(-62deg, #3a3d40 0%, #181719 100%);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.foot {
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+#work{
+}
+
+#contact{
+}
+
+.links {
+    margin: 10px 0 10px 10px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+#footLeftHead {
+    margin: 20px 0 15px 0;
+}
+
+#footRightHead {
+    margin: 20px 0 15px 0;
+}
+
+
+@media (max-width:552px) {
+    #footLeftHead {
+        font-size: 5.5vw;
+    }
+    #footRightHead {
+        font-size: 5.5vw;
+    }
+    .icon {
+        font-size: 3.5vw !important;
+    }
+    .links {
+        font-size: 3.5vw;
+    }
+}

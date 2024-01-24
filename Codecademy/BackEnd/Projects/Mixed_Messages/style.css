@@ -1,0 +1,33 @@
+.heading {
+    text-align: center;
+}
+
+.select {
+    text-align: center;
+}
+
+.answer {   
+    text-align: center;
+}
+
+.answer_p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 48px;
+    color: #333;
+}
+
+
+
+input[type=text] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-bottom: 15px;
+}
+

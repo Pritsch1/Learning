@@ -1,0 +1,134 @@
+#main {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    position: relative;
+    background: #eee;
+}
+
+#products {
+    justify-content: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: repeat(1, 300px);
+}
+
+.head {
+    background-color: #ddd;
+    margin: 0;
+    height: 27px;
+    padding: 10px 0;
+}
+
+#description {
+    padding: 0 20em 0 20em;
+    justify-content: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 170px);
+}
+
+#submit {
+    width: 20%;
+    background-color: #f1c40f;
+    color: black;
+    font-size: 1.5em;
+    padding: 14px 20px;
+    margin: 8px 40px 8px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+    #description {
+        grid-template-columns: repeat(auto-fit, 250px);
+        grid-template-rows: repeat(1, 300px);
+        display: inline-block;
+    }
+    .floath {
+        width: 100%;
+        float:none;
+        padding: 0;
+    }
+    
+}
+
+@media (min-width: 1100px) {
+    .floatp {
+        padding-top: 55px !important;
+        margin: 0 0px 0 180px !important;
+    }
+}
+
+    .big {
+        width: 560px;
+        height: 315px;
+    }
+
+    .small {
+        width: 300px;
+        height: 200px;
+    }
+
+    #header {
+        position: sticky;
+        top: 0;
+        height: 100px;
+    }
+
+    #youtube {
+        margin: 60px auto 60px auto;
+        grid-area: youtube;
+    }
+
+    #video {
+        background: blue;
+        border: 0;
+    }
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    padding: 20px;
+}
+
+    .flex-container {
+        display: flex;
+        background-color: #eee;
+        align-items: center;
+        padding: 0 2em 0 2em;
+    }
+
+    #header-img {
+        height: 98.57px;
+        width: 170px;
+    }
+
+    #nav-bar {
+        right: 2em;
+        position: absolute;
+    }
+
+.options {
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 0 20px 0 0;
+}
+
+.options2 {
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+}
+
+    .floath {
+        float: left;
+        padding-top: 42px
+    }
+
+    .floatp {
+        padding-top: 0px;
+        margin: 0 90px 0 90px;
+    }

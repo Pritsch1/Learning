@@ -1,0 +1,47 @@
+/* -----images */
+h1 {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*ebsfha*_ga*MTE4Njg2NTAyMy4xNjY2OTkzMzIw*_ga_3LRZM6TM9L*MTY3OTU5Mjk1My4yMS4xLjE2Nzk1OTg2MDIuNTkuMC4w");
+
+}
+.brushes-img {
+    content: url("https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg?_gl=1*173w2xo*_ga*MTE4Njg2NTAyMy4xNjY2OTkzMzIw*_ga_3LRZM6TM9L*MTY3OTU5Mjk1My4yMS4xLjE2Nzk1OTg2MDIuNTkuMC4w");
+}
+.frames-img {
+    content: url("https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg?_gl=1*173w2xo*_ga*MTE4Njg2NTAyMy4xNjY2OTkzMzIw*_ga_3LRZM6TM9L*MTY3OTU5Mjk1My4yMS4xLjE2Nzk1OTg2MDIuNTkuMC4w");
+}
+.paint-img {
+    content: url("https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg?_gl=1*173w2xo*_ga*MTE4Njg2NTAyMy4xNjY2OTkzMzIw*_ga_3LRZM6TM9L*MTY3OTU5Mjk1My4yMS4xLjE2Nzk1OTg2MDIuNTkuMC4w");
+}/* images----- */
+
+/* -----header color bars */
+.brushes {
+    background-color: mediumspringgreen;
+}
+.frames {
+    background-color: lightcoral;
+}
+.paint {
+    background-color: skyblue;
+}/* header color bars----- */
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {    
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+strong {
+    color: blue;
+}
